@@ -1,12 +1,11 @@
 import { ExternalLinkIcon } from "lucide-react";
-import { Url } from "next/dist/shared/lib/router/router";
 import Link from "next/link";
 
 interface ProjectProps {
   title: string;
   startDate: Date;
   endDate?: Date;
-  link?: Url;
+  link?: string;
   description: string;
   techStack?: string[];
 }
