@@ -3,7 +3,7 @@ import Link from "next/link";
 
 interface ProjectProps {
   title: string;
-  startDate: Date;
+  startDate?: Date;
   endDate?: Date;
   link?: string;
   description: string;
@@ -48,9 +48,9 @@ const Project = ({
           </div>
         )}
         <div className="flex items-center rounded-sm border border-gray-700 px-1 py-0.5 text-sm leading-none">
-          {startDate && endDate
-            ? `${startMonthYear} to ${endMonthYear}`
-            : `${startMonthYear} to Present`}{" "}
+          {startDate && endDate && `${startMonthYear} to ${endMonthYear}`}
+          {startDate && !endDate && `${startMonthYear} to Present`}
+          {!startDate && endDate && `${endMonthYear}`}
         </div>
       </div>
       <p>{description}</p>

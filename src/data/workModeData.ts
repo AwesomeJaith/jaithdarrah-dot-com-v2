@@ -4,13 +4,46 @@ export const graduationDate = new Date("May 11, 2026");
 
 export const projects: Project[] = [
   {
+    title: "jaithdarrah.com v2",
+    startDate: new Date("May 2025"),
+    description: "A revamped version of my portfolio website using Next.js.",
+    techStack: ["TypeScript", "Next.js", "Tailwind CSS", "npm.js"],
+  },
+  {
+    title: "Ecommerce Application",
+    startDate: new Date("April 2025"),
+    endDate: new Date("May 2025"),
+    description:
+      "A full stack ecommerce web application created with React and FastAPI. Users can sign up to create and order listings, view user profiles, and view their previous transactions.",
+    techStack: [
+      "TypeScript",
+      "React",
+      "React Router",
+      "Vite",
+      "Tailwind CSS",
+      "npm.js",
+      "Python",
+      "FastAPI",
+      "Psycopg2",
+      "PostgreSQL",
+    ],
+  },
+  {
+    title: "Gemini Chess Game Review",
+    startDate: new Date("March 2025"),
+    endDate: new Date("May 2025"),
+    description:
+      "An ASP.NET application that evaluates chess games and uses Google's Gemini AI to display AI-generated explanations of how key moves in games impacted their outcomes.",
+    techStack: ["C#", "ASP.NET", "Gemini AI"],
+  },
+  {
     title: "SunDevil Book Buying and Selling System",
     startDate: new Date("October 2024"),
     endDate: new Date("November 2024"),
     link: "https://github.com/AwesomeJaith/sundevil-bookstore-system",
     description:
       "A JavaFX application to facilitate the sale of books between buyers and sellers along with a dashboard for administrators to monitor listings, sales, transactions, and users.",
-    techStack: ["Java", "JavaFX", "sqlite3", "CSS", "FXML"],
+    techStack: ["Java", "JavaFX", "Sqlite3", "CSS", "FXML"],
   },
   {
     title: "Noodlebot",
@@ -23,6 +56,7 @@ export const projects: Project[] = [
       "JavaScript",
       "HTML",
       "CSS",
+      "npm.js",
       "Express.js",
       "Puppeteer.js",
       "Discord.js",
@@ -37,7 +71,7 @@ export const projects: Project[] = [
     link: "https://github.com/AwesomeJaith/Clash-of-Clans-Farming-Assistant",
     description:
       "A command-line interface to find Clash of Clans bases with a minimum amount of loot. This tool decreased the amount of time I spent searching for bases by 90%.",
-    techStack: ["Python", "OpenCV", "easyocr", "AutoHotKey"],
+    techStack: ["Python", "OpenCV", "EasyOCR", "AutoHotKey"],
   },
   {
     title: "Grocery Store GPS",
@@ -45,14 +79,14 @@ export const projects: Project[] = [
     endDate: new Date("February 2024"),
     link: "https://github.com/AwesomeJaith/Grocery-Store-GPS",
     description:
-      "A Flask API and Jupyter Notebook to display the best path to travel through a grocery store based on a grocery list.",
+      "A Flask API and Jupyter Notebook to calculate and display the fastest route to travel through a grocery store to get every item on a grocery list.",
     techStack: [
       "Python",
       "Flask",
       "NetworkX",
-      "matplotlib",
+      "Matplotlib",
       "Pillow",
-      "Jupyter Notebooks",
+      "Jupyter Notebook",
     ],
   },
 ];
