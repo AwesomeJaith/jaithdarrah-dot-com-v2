@@ -4,7 +4,7 @@ import { graduationDate } from "@/data/workModeData";
 import { useCountdown } from "@/hooks/useCountdown";
 import Socials from "./socials";
 
-const Biography = () => {
+const Biography = ({ ...props }: React.ComponentProps<"section">) => {
   const [days, hours, minutes, seconds] = useCountdown(graduationDate);
   const paddedDays = String(days).padStart(2, "0");
   const paddedHours = String(hours).padStart(2, "0");
@@ -12,8 +12,8 @@ const Biography = () => {
   const paddedSeconds = String(seconds).padStart(2, "0");
 
   return (
-    <section>
-      <div className="flex flex-col gap-4 bg-gray-50 p-8 rounded-lg border border-gray-700 font-mono">
+    <section {...props}>
+      <div className="flex flex-col gap-4 bg-gray-50 p-8 rounded-lg border border-gray-700">
         <p className="text-gray-700 leading-relaxed">
           Hi, I&apos;m a software engineer from the suburbs of Chicago. I&apos;m
           also an undergrad senior studying computer science at Arizona State

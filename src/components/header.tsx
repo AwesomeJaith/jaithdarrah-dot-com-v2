@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = ({ ...props }: React.ComponentProps<"header">) => {
   return (
     <header {...props}>
-      <div className="flex flex-col gap-4 font-mono">
+      <div className="flex flex-col gap-4">
         <div className="flex flex-col">
           <h1 className="text-4xl font-bold text-gray-700">Jaith Darrah</h1>
           <p className="text-2xl text-gray-700">
