@@ -1,6 +1,19 @@
-import { Project } from "@/types/types";
+import { Project, WorkExperience } from "@/types/types";
 
 export const graduationDate = new Date("May 11, 2026");
+
+export const workExperiences: WorkExperience[] = [
+  {
+    company: "Walgreens",
+    jobTitle: "Incoming Software Engineer Intern",
+    startDate: new Date("June 2025"),
+    endDate: new Date("August 2025"),
+    link: "https://www.walgreens.com/",
+    description:
+      "Expected to collaborate with other software engineers on the myWalgreens Rewards program using Java, learn about the company, and work culture/values during the upcoming internship.",
+    techStack: ["Java", "Microsoft Teams"],
+  },
+];
 
 export const projects: Project[] = [
   {
