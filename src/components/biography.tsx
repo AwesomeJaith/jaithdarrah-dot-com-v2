@@ -1,3 +1,5 @@
+"use client";
+
 import { graduationDate } from "@/data/workModeData";
 import { useCountdown } from "@/hooks/useCountdown";
 import Socials from "./socials";
@@ -13,9 +15,9 @@ const Biography = () => {
     <section>
       <div className="flex flex-col gap-4 bg-gray-50 p-8 rounded-lg border font-mono">
         <p className="text-gray-700 leading-relaxed">
-          Hi, I'm a software engineer from the suburbs of Chicago. I'm currently
-          studying computer science at Arizona State University, and I'm
-          graduating in{" "}
+          Hi, I&apos;m a software engineer from the suburbs of Chicago. I&apos;m
+          currently studying computer science at Arizona State University, and
+          I&apos;m graduating in{" "}
           <span className="inline-flex items-center gap-0.5 text-sm leading-none">
             <span className="rounded-sm border px-1 py-0.5">{paddedDays}</span>:
             <span className="rounded-sm border px-1 py-0.5">{paddedHours}</span>
@@ -29,7 +31,7 @@ const Biography = () => {
             </span>
           </span>{" "}
           days. I love exploring new ideas and working on cool stuff. Right now,
-          I'm working on{" "}
+          I&apos;m working on{" "}
           <span className="rounded-sm border px-1 py-0.5 text-sm leading-none">
             redacted
           </span>{" "}
