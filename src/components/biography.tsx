@@ -13,30 +13,35 @@ const Biography = () => {
 
   return (
     <section>
-      <div className="flex flex-col gap-4 bg-gray-50 p-8 rounded-lg border font-mono">
+      <div className="flex flex-col gap-4 bg-gray-50 p-8 rounded-lg border border-gray-700 font-mono">
         <p className="text-gray-700 leading-relaxed">
           Hi, I&apos;m a software engineer from the suburbs of Chicago. I&apos;m
-          currently studying computer science at Arizona State University, and
-          I&apos;m graduating in{" "}
+          also an undergrad senior studying computer science at Arizona State
+          University, and I&apos;m graduating in{" "}
           <span className="inline-flex items-center gap-0.5 text-sm leading-none">
-            <span className="rounded-sm border px-1 py-0.5">{paddedDays}</span>:
-            <span className="rounded-sm border px-1 py-0.5">{paddedHours}</span>
+            <span className="rounded-sm border border-gray-700 px-1 py-0.5">
+              {paddedDays}
+            </span>
             :
-            <span className="rounded-sm border px-1 py-0.5">
+            <span className="rounded-sm border border-gray-700 px-1 py-0.5">
+              {paddedHours}
+            </span>
+            :
+            <span className="rounded-sm border border-gray-700 px-1 py-0.5">
               {paddedMinutes}
             </span>
             :
-            <span className="rounded-sm border px-1 py-0.5">
+            <span className="rounded-sm border border-gray-700 px-1 py-0.5">
               {paddedSeconds}
             </span>
           </span>{" "}
           days. I love exploring new ideas and working on cool stuff. Right now,
           I&apos;m working on{" "}
-          <span className="rounded-sm border px-1 py-0.5 text-sm leading-none">
+          <span className="rounded-sm border border-gray-700 px-1 py-0.5 text-sm leading-none">
             redacted
           </span>{" "}
           and{" "}
-          <span className="rounded-sm border px-1 py-0.5 text-sm leading-none">
+          <span className="rounded-sm border border-gray-700 px-1 py-0.5 text-sm leading-none">
             redacted
           </span>
           .
