@@ -35,8 +35,8 @@ const Biography = ({ ...props }: React.ComponentProps<"section">) => {
               {paddedSeconds}
             </span>
           </span>{" "}
-          days. I love exploring new ideas and working on cool stuff. Right now,
-          I&apos;m working on{" "}
+          days on May 11, 2026. I love exploring new ideas and working on cool
+          stuff. Right now, I&apos;m working on{" "}
           <span className="rounded-sm border border-gray-700 px-1 py-0.5 text-sm leading-none">
             redacted
           </span>{" "}
