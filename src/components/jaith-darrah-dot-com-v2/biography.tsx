@@ -23,7 +23,7 @@ const Biography = ({ ...props }: React.ComponentProps<"section">) => {
         <p className="text-gray-700 leading-relaxed">
           Hi, I&apos;m a software engineer from the suburbs of Chicago. I&apos;m
           also an undergrad senior studying computer science at Arizona State
-          University, graduating in{" "}
+          University graduating in{" "}
           <span className="inline-flex items-center gap-0.5 text-sm leading-none">
             <span className="rounded-sm border border-gray-700 px-1 py-0.5">
               <TooltipProvider>
