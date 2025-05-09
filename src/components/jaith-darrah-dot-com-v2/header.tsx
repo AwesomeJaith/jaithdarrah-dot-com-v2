@@ -1,15 +1,34 @@
+"use client";
+
 import * as React from "react";
 import { WordRotate } from "@/components/magicui/word-rotate";
 import { headerSentences } from "@/data/workModeData";
+import { Switch } from "@/components/ui/switch";
+import { useTheme } from "next-themes";
 
 const Header = ({ ...props }: React.ComponentProps<"header">) => {
+  const { setTheme } = useTheme();
+
   return (
     <header {...props}>
       <div className="flex flex-col gap-2">
-        <h1 className="text-4xl font-bold text-gray-700">Jaith Darrah</h1>
+        <div className="flex justify-between items-center">
+          <h1 className="text-4xl font-bold text-gray-700 dark:text-white">
+            Jaith Darrah
+          </h1>
+          <div className="flex items-center space-x-2">
+            <Switch
+              id="dark-mode"
+              onCheckedChange={(checked) => {
+                setTheme(checked ? "dark" : "light");
+              }}
+            />
+          </div>
+        </div>
+
         <div className="h-24 md:h-12 lg:h-8">
           <WordRotate
-            className="text-2xl text-gray-700"
+            className="text-2xl text-gray-700 dark:text-white"
             duration={3500}
             words={headerSentences}
           />

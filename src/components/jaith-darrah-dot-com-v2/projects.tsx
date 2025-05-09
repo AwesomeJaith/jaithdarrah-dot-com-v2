@@ -5,7 +5,9 @@ const Projects = ({ ...props }: React.ComponentProps<"section">) => {
   return (
     <section {...props}>
       <div className="flex flex-col gap-4">
-        <h1 className="text-2xl text-gray-700 font-bold">Projects</h1>
+        <h1 className="text-2xl text-gray-700 dark:text-white font-bold">
+          Projects
+        </h1>
         {projects &&
           projects.length != 0 &&
           projects.map((project) => (

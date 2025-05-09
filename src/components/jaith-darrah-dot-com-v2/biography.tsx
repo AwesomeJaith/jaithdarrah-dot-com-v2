@@ -19,13 +19,13 @@ const Biography = ({ ...props }: React.ComponentProps<"section">) => {
 
   return (
     <section {...props}>
-      <div className="flex flex-col gap-4 bg-gray-50 p-8 rounded-lg border border-gray-700">
-        <p className="text-gray-700 leading-relaxed">
+      <div className="flex flex-col gap-4 bg-gray-50 dark:bg-gray-900 p-8 rounded-lg border border-gray-700">
+        <p className="text-gray-700 dark:text-white leading-relaxed">
           Hi, I&apos;m a software engineer from the suburbs of Chicago. I&apos;m
           also an undergrad senior studying computer science at Arizona State
           University, and I&apos;m graduating in{" "}
-          <span className="inline-flex items-center gap-0.5 text-sm leading-none">
-            <span className="rounded-sm border border-gray-700 px-1 py-0.5">
+          <span className="inline-flex items-center gap-0.5 text-sm">
+            <span className="rounded-sm border border-gray-700 px-1.5 py-0.5">
               <TooltipProvider>
                 <Tooltip>
                   <TooltipTrigger>{paddedDays}</TooltipTrigger>
@@ -36,7 +36,7 @@ const Biography = ({ ...props }: React.ComponentProps<"section">) => {
               </TooltipProvider>
             </span>
             :
-            <span className="rounded-sm border border-gray-700 px-1 py-0.5">
+            <span className="rounded-sm border border-gray-700 px-1.5 py-0.5">
               <TooltipProvider>
                 <Tooltip>
                   <TooltipTrigger>{paddedHours}</TooltipTrigger>
@@ -47,7 +47,7 @@ const Biography = ({ ...props }: React.ComponentProps<"section">) => {
               </TooltipProvider>
             </span>
             :
-            <span className="rounded-sm border border-gray-700 px-1 py-0.5">
+            <span className="rounded-sm border border-gray-700 px-1.5 py-0.5">
               <TooltipProvider>
                 <Tooltip>
                   <TooltipTrigger>{paddedMinutes}</TooltipTrigger>
@@ -58,7 +58,7 @@ const Biography = ({ ...props }: React.ComponentProps<"section">) => {
               </TooltipProvider>
             </span>
             :
-            <span className="rounded-sm border border-gray-700 px-1 py-0.5">
+            <span className="rounded-sm border border-gray-700 px-1.5 py-0.5">
               <TooltipProvider>
                 <Tooltip>
                   <TooltipTrigger>{paddedSeconds}</TooltipTrigger>
@@ -71,11 +71,11 @@ const Biography = ({ ...props }: React.ComponentProps<"section">) => {
           </span>{" "}
           days on May 11, 2026. I love exploring new ideas and working on cool
           stuff. Right now, I&apos;m working on{" "}
-          <span className="rounded-sm border border-gray-700 px-1 py-0.5 text-sm leading-none">
+          <span className="rounded-sm border border-gray-700 px-1.5 py-0.5 text-sm">
             redacted
           </span>{" "}
           and{" "}
-          <span className="rounded-sm border border-gray-700 px-1 py-0.5 text-sm leading-none">
+          <span className="rounded-sm border border-gray-700 px-1.5 py-0.5 text-sm">
             redacted
           </span>
           .
