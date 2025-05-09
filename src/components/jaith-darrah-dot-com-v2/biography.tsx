@@ -3,6 +3,12 @@
 import { graduationDate } from "@/data/workModeData";
 import { useCountdown } from "@/hooks/useCountdown";
 import Socials from "./socials";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const Biography = ({ ...props }: React.ComponentProps<"section">) => {
   const [days, hours, minutes, seconds] = useCountdown(graduationDate);
@@ -20,19 +26,47 @@ const Biography = ({ ...props }: React.ComponentProps<"section">) => {
           University, and I&apos;m graduating in{" "}
           <span className="inline-flex items-center gap-0.5 text-sm leading-none">
             <span className="rounded-sm border border-gray-700 px-1 py-0.5">
-              {paddedDays}
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>{paddedDays}</TooltipTrigger>
+                  <TooltipContent>
+                    <p>Days</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
             </span>
             :
             <span className="rounded-sm border border-gray-700 px-1 py-0.5">
-              {paddedHours}
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>{paddedHours}</TooltipTrigger>
+                  <TooltipContent>
+                    <p>Hours</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
             </span>
             :
             <span className="rounded-sm border border-gray-700 px-1 py-0.5">
-              {paddedMinutes}
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>{paddedMinutes}</TooltipTrigger>
+                  <TooltipContent>
+                    <p>Minutes</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
             </span>
             :
             <span className="rounded-sm border border-gray-700 px-1 py-0.5">
-              {paddedSeconds}
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>{paddedSeconds}</TooltipTrigger>
+                  <TooltipContent>
+                    <p>Seconds</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
             </span>
           </span>{" "}
           days on May 11, 2026. I love exploring new ideas and working on cool
