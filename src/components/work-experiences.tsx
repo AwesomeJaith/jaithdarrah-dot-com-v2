@@ -8,8 +8,9 @@ const WorkExperiences = ({ ...props }: React.ComponentProps<"section">) => {
         <h1 className="text-2xl text-gray-700 font-bold">Work Experience</h1>
         {workExperiences &&
           workExperiences.length != 0 &&
-          workExperiences.map((workExperience) => (
+          workExperiences.map((workExperience, i) => (
             <WorkExperience
+              key={i}
               company={workExperience.company}
               jobTitle={workExperience.jobTitle}
               startDate={workExperience.startDate}

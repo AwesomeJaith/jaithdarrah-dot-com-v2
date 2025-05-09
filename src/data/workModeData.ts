@@ -2,6 +2,8 @@ import { Project, WorkExperience } from "@/types/types";
 
 export const graduationDate = new Date("May 11, 2026");
 
+export const GitHubURL = "https://github.com/AwesomeJaith";
+
 export const workExperiences: WorkExperience[] = [
   {
     company: "Walgreens",

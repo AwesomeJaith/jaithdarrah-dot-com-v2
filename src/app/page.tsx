@@ -1,6 +1,7 @@
 "use client";
 
 import Biography from "@/components/biography";
+import GitHubActivity from "@/components/github-activity";
 import Header from "@/components/header";
 import Projects from "@/components/projects";
 import WorkExperiences from "@/components/work-experiences";
@@ -12,7 +13,8 @@ export default function Home() {
         <Header className="mb-4" />
         <Biography className="mb-8" />
         <WorkExperiences className="mb-8" />
-        <Projects />
+        <Projects className="mb-8" />
+        <GitHubActivity />
       </div>
     </div>
   );
