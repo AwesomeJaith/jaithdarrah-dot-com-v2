@@ -18,7 +18,7 @@ const Header = ({ ...props }: React.ComponentProps<"header">) => {
           </h1>
           <div className="flex items-center space-x-2">
             <Switch
-              id="light-mode"
+              aria-label="light mode toggle"
               onCheckedChange={(checked) => {
                 setTheme(checked ? "light" : "dark");
               }}
