@@ -37,7 +37,7 @@ const WorkExperience = ({
         {link ? (
           <Link href={link} target="_blank" className="group">
             <div className="flex items-center gap-2">
-              <h2 className="truncate max-w-xs font-semibold text-gray-700 transition-colors duration-200 group-hover:text-[#4cda82]">
+              <h2 className="text-wrap font-semibold text-gray-700 transition-colors duration-200 group-hover:text-[#4cda82]">
                 {company}
               </h2>
               <ExternalLinkIcon className="size-4 transition-colors duration-200 group-hover:text-[#4cda82]" />

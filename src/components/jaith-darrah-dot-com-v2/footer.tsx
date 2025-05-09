@@ -15,7 +15,7 @@ const Footer = ({ ...props }: React.ComponentProps<"footer">) => {
         <div className="flex justify-between gap-4">
           <div>© Jaith Darrah {currentYear}</div>
           <Link
-            className="hover:underline transition-colors duration-200 hover:text-[#4cda82]"
+            className="inline-flex hover:underline transition-colors duration-200 hover:text-[#4cda82]"
             href={WebsiteSourceURL}
             target="_blank"
           >

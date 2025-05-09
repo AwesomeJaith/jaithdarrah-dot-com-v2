@@ -1,6 +1,6 @@
 import { Project, WorkExperience } from "@/types/types";
 
-export const graduationDate = new Date("May 11, 2026");
+export const graduationDate = new Date("2026-5-11 12:00:00".replace(/-/g, "/"));
 
 export const GitHubURL = "https://github.com/AwesomeJaith";
 export const WebsiteSourceURL =
@@ -18,8 +18,8 @@ export const workExperiences: WorkExperience[] = [
   {
     company: "Walgreens",
     jobTitle: "Incoming Software Engineer Intern",
-    startDate: new Date("June 2025"),
-    endDate: new Date("August 2025"),
+    startDate: new Date("2025-6-1 00:00:00".replace(/-/g, "/")),
+    endDate: new Date("2025-8-1 00:00:00".replace(/-/g, "/")),
     link: "https://www.walgreens.com/",
     description:
       "Expected to collaborate with other software engineers on the myWalgreens Rewards program using Java, learn about the company, and work culture/values during the upcoming internship.",
@@ -36,8 +36,8 @@ export const projects: Project[] = [
   },
   {
     title: "Ecommerce Application",
-    startDate: new Date("April 2025"),
-    endDate: new Date("May 2025"),
+    startDate: new Date("2025-4-1 00:00:00".replace(/-/g, "/")),
+    endDate: new Date("2025-5-1 00:00:00".replace(/-/g, "/")),
     description:
       "A full stack ecommerce web application created with React and FastAPI. Users can sign up to create and order listings, view user profiles, and view their previous transactions.",
     techStack: [
@@ -55,16 +55,16 @@ export const projects: Project[] = [
   },
   {
     title: "Gemini Chess Game Review",
-    startDate: new Date("March 2025"),
-    endDate: new Date("May 2025"),
+    startDate: new Date("2025-3-1 00:00:00".replace(/-/g, "/")),
+    endDate: new Date("2025-5-1 00:00:00".replace(/-/g, "/")),
     description:
       "An ASP.NET application that evaluates chess games and uses Google's Gemini AI to display AI-generated explanations of how key moves in games impacted their outcomes.",
     techStack: ["C#", "ASP.NET", "Gemini AI"],
   },
   {
     title: "SunDevil Book Buying and Selling System",
-    startDate: new Date("October 2024"),
-    endDate: new Date("November 2024"),
+    startDate: new Date("2024-10-1 00:00:00".replace(/-/g, "/")),
+    endDate: new Date("2024-11-1 00:00:00".replace(/-/g, "/")),
     link: "https://github.com/AwesomeJaith/sundevil-bookstore-system",
     description:
       "A JavaFX application to facilitate the sale of books between buyers and sellers along with a dashboard for administrators to monitor listings, sales, transactions, and users.",
@@ -72,8 +72,8 @@ export const projects: Project[] = [
   },
   {
     title: "Noodlebot",
-    startDate: new Date("August 2024"),
-    endDate: new Date("September 2024"),
+    startDate: new Date("2024-8-1 00:00:00".replace(/-/g, "/")),
+    endDate: new Date("2024-9-1 00:00:00".replace(/-/g, "/")),
     link: "https://github.com/AwesomeJaith/noodlebot",
     description:
       "A Discord bot that logs and displays the difference between two messages when a message is edited on Discord. Noodlebot tracked over 500 message edits and highlighted changes in messages for three months.",
@@ -91,8 +91,8 @@ export const projects: Project[] = [
   },
   {
     title: "Clash of Clans Base Finder",
-    startDate: new Date("May 2024"),
-    endDate: new Date("June 2024"),
+    startDate: new Date("2024-5-1 00:00:00".replace(/-/g, "/")),
+    endDate: new Date("2024-6-1 00:00:00".replace(/-/g, "/")),
     link: "https://github.com/AwesomeJaith/Clash-of-Clans-Farming-Assistant",
     description:
       "A command-line interface to find Clash of Clans bases with a minimum amount of loot. This tool decreased the amount of time I spent searching for bases by 90%.",
@@ -100,8 +100,8 @@ export const projects: Project[] = [
   },
   {
     title: "Grocery Store GPS",
-    startDate: new Date("January 2024"),
-    endDate: new Date("February 2024"),
+    startDate: new Date("2024-1-1 00:00:00".replace(/-/g, "/")),
+    endDate: new Date("2024-2-1 00:00:00".replace(/-/g, "/")),
     link: "https://github.com/AwesomeJaith/Grocery-Store-GPS",
     description:
       "A Flask API and Jupyter Notebook to calculate and display the fastest route to travel through a grocery store to get every item on a grocery list.",
