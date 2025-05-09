@@ -9,7 +9,7 @@ const Header = ({ ...props }: React.ComponentProps<"header">) => {
         <div className="flex flex-col">
           <h1 className="text-4xl font-bold text-gray-700">Jaith Darrah</h1>
           <WordRotate
-            className="text-2xl text-gray-700"
+            className="h-16 text-2xl text-gray-700"
             duration={3500}
             words={headerSentences}
           />

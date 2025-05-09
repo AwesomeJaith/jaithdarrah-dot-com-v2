@@ -30,7 +30,7 @@ export const workExperiences: WorkExperience[] = [
 export const projects: Project[] = [
   {
     title: "jaithdarrah.com v2",
-    startDate: new Date("May 2025"),
+    startDate: new Date("2025-5-1 00:00:00".replace(/-/g, "/")),
     description: "A revamped version of my portfolio website using Next.js.",
     techStack: ["TypeScript", "Next.js", "Tailwind CSS", "npm.js"],
   },
