@@ -1,8 +1,10 @@
 import {
   EnvelopeClosedIcon,
+  FileTextIcon,
   GitHubLogoIcon,
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
+import { File } from "lucide-react";
 import Link from "next/link";
 
 const Socials = ({ ...props }: React.ComponentProps<"div">) => {

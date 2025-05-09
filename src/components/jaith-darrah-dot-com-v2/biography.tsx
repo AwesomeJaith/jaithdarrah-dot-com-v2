@@ -9,6 +9,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import Link from "next/link";
 
 const Biography = ({ ...props }: React.ComponentProps<"section">) => {
   const [days, hours, minutes, seconds] = useCountdown(graduationDate);
@@ -80,7 +81,9 @@ const Biography = ({ ...props }: React.ComponentProps<"section">) => {
           </span>
           .
         </p>
-        <Socials />
+        <div className="flex justify-between items-center gap-4">
+          <Socials />
+        </div>
       </div>
     </section>
   );
