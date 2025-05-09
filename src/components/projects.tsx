@@ -10,7 +10,7 @@ const Projects = ({ ...props }: React.ComponentProps<"section">) => {
           projects.length != 0 &&
           projects.map((project, i) => (
             <Project
-              key={i}
+              key={project.title + (project.startDate || project.endDate)}
               title={project.title}
               startDate={project.startDate}
               endDate={project.endDate}
