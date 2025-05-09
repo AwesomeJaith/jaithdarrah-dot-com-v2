@@ -15,7 +15,7 @@ const Footer = ({ ...props }: React.ComponentProps<"footer">) => {
         <div className="flex justify-between gap-4">
           <div>© Jaith Darrah {currentYear}</div>
           <Link
-            className="hover:underline hover:text-[#4cda82]"
+            className="hover:underline transition-colors duration-200 hover:text-[#4cda82]"
             href={WebsiteSourceURL}
             target="_blank"
           >
@@ -26,13 +26,13 @@ const Footer = ({ ...props }: React.ComponentProps<"footer">) => {
           <Socials />
           <div>
             Inspired by{" "}
-            <span className="rounded-sm border border-gray-700 px-1 py-0.5 hover:bg-[#4cda82]">
+            <span className="rounded-sm border border-gray-700 px-1 py-0.5 transition-colors duration-200 hover:bg-[#4cda82]">
               <Link className="" href={PraniWebsiteURL} target="_blank">
                 prani.dev
               </Link>
             </span>{" "}
             and{" "}
-            <span className="rounded-sm border border-gray-700 px-1 py-0.5 hover:bg-[#4cda82]">
+            <span className="rounded-sm border border-gray-700 px-1 py-0.5 transition-colors duration-200 hover:bg-[#4cda82]">
               <Link className="" href={ThibaultWebsiteURL} target="_blank">
                 thibault.sh
               </Link>
