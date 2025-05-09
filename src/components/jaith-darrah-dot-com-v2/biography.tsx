@@ -9,7 +9,6 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import Link from "next/link";
 
 const Biography = ({ ...props }: React.ComponentProps<"section">) => {
   const [days, hours, minutes, seconds] = useCountdown(graduationDate);

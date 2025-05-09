@@ -8,7 +8,7 @@ const Projects = ({ ...props }: React.ComponentProps<"section">) => {
         <h1 className="text-2xl text-gray-700 font-bold">Projects</h1>
         {projects &&
           projects.length != 0 &&
-          projects.map((project, i) => (
+          projects.map((project) => (
             <Project
               key={project.title + (project.startDate || project.endDate)}
               title={project.title}

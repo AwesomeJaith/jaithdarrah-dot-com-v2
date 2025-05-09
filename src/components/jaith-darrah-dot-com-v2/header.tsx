@@ -1,5 +1,4 @@
 import * as React from "react";
-import Link from "next/link";
 import { WordRotate } from "@/components/magicui/word-rotate";
 import { headerSentences } from "@/data/workModeData";
 
