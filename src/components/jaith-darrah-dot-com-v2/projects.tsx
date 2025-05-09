@@ -1,4 +1,4 @@
-import Project from "@/components/project";
+import Project from "@/components/jaith-darrah-dot-com-v2/project";
 import { projects } from "@/data/workModeData";
 
 const Projects = ({ ...props }: React.ComponentProps<"section">) => {
