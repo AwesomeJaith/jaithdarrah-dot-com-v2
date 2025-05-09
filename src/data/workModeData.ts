@@ -3,6 +3,10 @@ import { Project, WorkExperience } from "@/types/types";
 export const graduationDate = new Date("May 11, 2026");
 
 export const GitHubURL = "https://github.com/AwesomeJaith";
+export const WebsiteSourceURL =
+  "https://github.com/AwesomeJaith/jaithdarrah-dot-com-v2";
+export const PraniWebsiteURL = "https://prani.dev/";
+export const ThibaultWebsiteURL = "https://thibault.sh/";
 
 export const workExperiences: WorkExperience[] = [
   {
