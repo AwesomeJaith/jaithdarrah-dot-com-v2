@@ -50,7 +50,7 @@ const Project = ({
           )}
           {title === "jaithdarrah.com v2" && (
             <div className="flex items-center rounded-sm border border-gray-700 bg-[#4cda82] px-1 py-0.5 text-sm leading-none">
-              You're here 😎
+              You&apos;re here 😎
             </div>
           )}
         </div>
