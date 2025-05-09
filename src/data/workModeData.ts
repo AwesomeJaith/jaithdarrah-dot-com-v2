@@ -8,6 +8,12 @@ export const WebsiteSourceURL =
 export const PraniWebsiteURL = "https://prani.dev/";
 export const ThibaultWebsiteURL = "https://thibault.sh/";
 
+export const headerSentences = [
+  "Undergrad computer science senior at ASU",
+  "Incoming software engineer intern at Walgreens",
+  "Working on some cool projects",
+];
+
 export const workExperiences: WorkExperience[] = [
   {
     company: "Walgreens",
