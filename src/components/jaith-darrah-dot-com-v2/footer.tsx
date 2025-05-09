@@ -26,17 +26,17 @@ const Footer = ({ ...props }: React.ComponentProps<"footer">) => {
           <Socials />
           <div>
             Inspired by{" "}
-            <span className="rounded-sm border border-gray-700 px-1 py-0.5 transition-colors duration-200 hover:bg-[#4cda82]">
-              <Link className="" href={PraniWebsiteURL} target="_blank">
+            <Link className="" href={PraniWebsiteURL} target="_blank">
+              <span className="rounded-sm border border-gray-700 px-1 py-0.5 transition-colors duration-200 hover:bg-[#4cda82]">
                 prani.dev
-              </Link>
-            </span>{" "}
+              </span>
+            </Link>{" "}
             and{" "}
-            <span className="rounded-sm border border-gray-700 px-1 py-0.5 transition-colors duration-200 hover:bg-[#4cda82]">
-              <Link className="" href={ThibaultWebsiteURL} target="_blank">
+            <Link className="" href={ThibaultWebsiteURL} target="_blank">
+              <span className="rounded-sm border border-gray-700 px-1 py-0.5 transition-colors duration-200 hover:bg-[#4cda82]">
                 thibault.sh
-              </Link>
-            </span>
+              </span>
+            </Link>
           </div>
         </div>
       </div>
