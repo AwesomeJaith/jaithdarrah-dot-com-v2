@@ -22,7 +22,7 @@ export const workExperiences: WorkExperience[] = [
     endDate: new Date("2025-8-1 00:00:00".replace(/-/g, "/")),
     link: "https://www.walgreens.com/",
     description:
-      "Expected to collaborate with other software engineers on the myWalgreens Rewards program using Java, learn about the company, and work culture/values during the upcoming internship.",
+      "Expected to collaborate with other software engineers on the myWalgreens Rewards program using Java, learn about the company, and adhere to company culture/values during the upcoming internship.",
     techStack: ["Java", "Microsoft Teams"],
   },
 ];
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     startDate: new Date("2025-3-1 00:00:00".replace(/-/g, "/")),
     endDate: new Date("2025-5-1 00:00:00".replace(/-/g, "/")),
     description:
-      "An ASP.NET application that evaluates chess games and uses Google's Gemini AI to display AI-generated explanations of how key moves in games impacted their outcomes.",
+      "An ASP.NET application that analyzes chess games and uses Google's Gemini AI to display AI-generated explanations of how key moves impacted the outcomes.",
     techStack: ["C#", "ASP.NET", "Gemini AI"],
   },
   {
