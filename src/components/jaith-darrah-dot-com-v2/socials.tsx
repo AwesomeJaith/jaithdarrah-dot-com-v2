@@ -25,7 +25,7 @@ const Socials = ({ ...props }: React.ComponentProps<"div">) => {
         </Link>
         <Link
           aria-label="email me"
-          href="mailto:generic.jaithd@gmail.com"
+          href="mailto:hi@jaithdarrah.com"
           target="_blank"
         >
           <EnvelopeClosedIcon className="size-5 text-gray-700 dark:text-white transition-colors duration-200 hover:text-[#4cda82] dark:hover:text-[#4cda82]" />

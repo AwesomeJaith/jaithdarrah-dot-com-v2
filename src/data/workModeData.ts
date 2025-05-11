@@ -66,7 +66,6 @@ export const projects: Project[] = [
     title: "SunDevil Book Buying and Selling System",
     startDate: new Date("2024-10-1 00:00:00".replace(/-/g, "/")),
     endDate: new Date("2024-11-1 00:00:00".replace(/-/g, "/")),
-    link: "https://github.com/AwesomeJaith/sundevil-bookstore-system",
     description:
       "A JavaFX application to facilitate the sale of books between buyers and sellers along with a dashboard for administrators to monitor listings, sales, transactions, and users.",
     techStack: ["Java", "JavaFX", "Sqlite3", "CSS", "FXML"],
